@@ -228,7 +228,7 @@ if args.e:
 # tbh i have no idea how this works. *why* does it work? i dont know!
 # it's a miracle my spaghetti code works, i'll probably rewrite this soon
 if args.f:
-    ENT_PATH = os.path.join(APP_PATH, "pyzule.entitlements")
+    ENT_PATH = os.path.join(APP_PATH, "@Chepe-DEV")
     with open(ENT_PATH, "w") as epf:
         HAS_ENTITLEMENTS = 0
 
