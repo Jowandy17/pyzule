@@ -59,7 +59,7 @@ fi
 
 echo "[*] installing pyzule.."
 sudo rm /usr/local/bin/pyzule &> /dev/null  # yeah this is totally required leave me alone
-sudo curl -so /usr/local/bin/pyzule https://github.com/Jowandy17/pyzule/raw/main/pyzule.py
+sudo curl -so /usr/local/bin/pyzule https://raw.githubusercontent.com/Jowandy17/pyzule/main/pyzule.py
 if [ "$OS" == "Linux" ]; then
     sudo sed -i "1s|.*|#\!${PZ_DIR}/venv/bin/python|" /usr/local/bin/pyzule
 else
